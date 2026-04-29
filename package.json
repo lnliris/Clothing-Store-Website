@@ -1,0 +1,88 @@
+{
+  "name": "fe-clothing-store-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@coreui/coreui": "^5.2.0",
+    "@coreui/react": "^5.5.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fontsource/poppins": "^5.2.5",
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@hookform/resolvers": "^5.0.1",
+    "@mui/icons-material": "^6.4.6",
+    "@mui/material": "^6.4.6",
+    "@payos/payos-checkout": "^1.0.8",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "antd": "^5.24.5",
+    "axios": "^1.8.1",
+    "framer-motion": "^12.7.4",
+    "papaparse": "^5.5.2",
+    "payos-checkout": "^1.0.9",
+    "prettier": "^3.5.3",
+    "qrcode.react": "^4.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.55.0",
+    "react-icons": "^5.5.0",
+    "react-images-uploading": "^3.1.7",
+    "react-loading-overlay-ts": "^2.0.2",
+    "react-markdown": "^10.1.0",
+    "react-modal": "^3.16.3",
+    "react-router-dom": "^7.2.0",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.30.3",
+    "react-spinners": "^0.15.0",
+    "react-toastify": "^11.0.5",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.16",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5",
+    "yup": "^1.6.1"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prepare": "husky && husky install",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,md,mdx,css,yaml,yml}\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx,json,css,md}": "prettier --write"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.4.3",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.2.0",
+    "vite-plugin-svgr": "^4.3.0"
+  }
+}
