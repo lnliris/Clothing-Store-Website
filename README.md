@@ -2,7 +2,7 @@
 
 This is a monorepo for the Clothing Store application:
 - `fe/`: Frontend (React + Ant Design)
-- `be/`: Backend (Spring Boot + MongoDB Atlas + VNPay)
+- `be/`: Backend (Spring Boot + MongoDB Atlas)
 
 ## Repository structure
 
